@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JamBuddy Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JamBuddy Game</h1>
+        <div id="notes" class="notes">
+            <p class="big-font-size note1" id="note1"></p>
+            <p class="big-font-size note2" id="note2"></p>
+        </div>
+        <div class="answer">
+            <div id="streakDisplay">Streak: 0</div>
+            <input type="number" id="userAnswer" name="answer" placeholder="Enter your answer  (numbers only)">
+        </div>
+        <div id="message" class="message"></div>
+        <div class="notes-container">
+            <div id="notesDisplay"></div>
+        </div>
+        <div id="explanation">
+        </div>
+        <div id="buttons">
+            <button class="btnAnswer" type="button" id="submitAnswer">Submit Answer</button>
+            <button class="btnRandomizeNotes" type="button" id="randomizeNotes">Random Notes</button>
+            <button id="giveUpButton">Give Up</button>
+            <button id="restartButton">Restart</button>
+        </div>
+    </div>
+    <script src="./dist/bundle.js"></script>
+</body>
+
+</html>
